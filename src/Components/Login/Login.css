@@ -8,7 +8,6 @@
 .login > img{
   width: 70%;
   max-width: 500px;
-  filter: invert(100%);
 }
 
 .login > a{

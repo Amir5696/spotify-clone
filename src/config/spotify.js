@@ -21,6 +21,7 @@ export const getTokenFromUrl = () => {
       initialValue[parts[0]] = decodeURIComponent(parts[1]);
       return initialValue;
     }, {});
+    
 };
 
 export const loginUrl = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(

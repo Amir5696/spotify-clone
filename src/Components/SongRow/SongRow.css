@@ -1,0 +1,46 @@
+.songrow {
+  margin-left: 5px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  color: white;
+  border-radius: 5px;
+}
+
+.songrow:hover {
+  background-color: #9b9b9b5e;
+}
+
+.songrow__info {
+  width: 100%;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.songrow__info div > h1 {
+  width: 150px;
+  height: 20px;
+  text-overflow: ellipsis;
+  font-size: 16px;
+}
+
+.songrow__info div > p {
+  width: 150px;
+  font-size: 14px;
+  margin: 0 30px 0 0;
+  text-overflow: ellipsis;
+  height: 18px;
+  color: #a0a0a0;
+}
+
+.songrow__image {
+  width: 40px;
+  min-width: 40px;
+}
+
+.songrow__playicon {
+  margin-left: -10px;
+  padding-right: 10px;
+}
